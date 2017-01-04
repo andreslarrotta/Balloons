@@ -1,0 +1,398 @@
+/* By GACB (Phone Numbrer 571+ 3005790114) */
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+font-family: Balloons;
+src: url('../fonts/Hand_Of_Sean_Demo.ttf');
+}
+@font-face {
+font-family: Balloons2;
+src: url('../fonts/BebasNeue.otf');
+}
+#ejes{
+  overflow-x:hidden;
+  pointer-events: auto ;
+}
+
+.contacto h1{
+  font-family: Balloons;
+  font-size: 2em;
+  font-weight: lighter;"
+
+}
+.mainSection {
+  width: 100%;
+  height: 1075px;
+}
+
+  .bgTopSectionHome {
+  background: url(../images/bg_homeFrente.png) center center no-repeat;
+  width: 100%;
+
+  position: fixed;
+}
+
+.bgTopSectionSer1{
+  background: url(../images/servicios3.png) no-repeat;
+  width: 100%;
+  top: 100%;
+  position: absolute;
+
+
+ 
+} 
+.bgTopSectionSer2{
+  background: url(../images/servicios2.png) no-repeat;
+  width: 100%;
+
+  top: 100%;
+  position: absolute;
+  
+
+}
+.bgTopSectionSer3{
+  background: url(../images/servicios1.png)  no-repeat;
+   width: 100%;
+  top: 100%;
+position: absolute;
+
+
+}
+.bgTopSectionCon1{
+  background: url(../images/contacsto3.png) no-repeat;
+  width: 100%;
+  position: absolute;
+  top: 200%;
+   background-size: auto auto;
+}
+.bgTopSectionCon2{
+  background: url(../images/contacto2.png)  no-repeat;
+  width: 100%;
+  position: absolute;
+  top: 200%;
+   background-size: auto auto;
+}
+.bgTopSectionCon3{
+  background: url(../images/contacto1.png)  no-repeat;
+  width: 100%;
+
+  top: 151%;
+  position: absolute;
+}
+.section_01 {
+    background-image: url(../images/bg_home2.png);
+   
+  }
+.section_02 {
+  background-image: url(../images/bg_servicios2.png);
+  }
+.section_03 {
+  background-image: url(../images/bg_contacto2.png);
+  }
+
+
+/*seccion1 home*/
+#barramenu{
+  width: 100%;
+  height:50px;
+  top: 0;
+  z-index: 99;
+  position: fixed;
+  opacity: 0.6;
+  background-color: white;
+}
+.bloque{
+  text-decoration: none;
+  width: 33.333%;
+  height: 100%;
+  font-family: Balloons;
+  text-align: center;
+  color: black;
+  float: left;
+  font-size: 30px;
+ 
+}
+#opcion1:hover{
+  background-color: #00f900;
+  -webkit-transition: background-color 4s;
+  -moz-transition: background-color 4s;
+  -o-transition: background-color 4s;
+}
+#opcion2:hover{
+  background-color: #fefb00;
+  -webkit-transition: background-color 4s;
+  -moz-transition: background-color 4s;
+  -o-transition: background-color 4s;
+}
+#opcion3:hover{
+  background-color: #ff0298;
+  -webkit-transition: background-color 4s;
+  -moz-transition: background-color 4s;
+  -o-transition: background-color 4s;
+}
+#robot{
+  position: absolute;
+  bottom: 0;
+  z-index: -5;
+}
+#lista{
+  
+  position: fixed;
+  left: 40%;
+  width: 20%;
+  z-index: 99;
+  position: fixed;
+  bottom: 0;
+
+}
+#vaciolista{
+  background-color: green;
+  width: 100%;
+  height: 100%;
+}
+#globo1{
+  width:10%;
+  height:60%;
+  bottom: 0;
+  left: 5%;
+  position: fixed;
+}
+#globo2{
+  width:20%;
+  height:40%;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+
+ 
+}
+#globo3{
+  width:5%;
+  height:60%;
+  bottom: 0;
+  left: 80%;
+  position: fixed;
+ 
+}
+#globo4{
+  width:100%;
+  height:20%;
+  bottom: 0;
+  left: 88%;
+  position: fixed;
+
+ 
+}
+#globo5{
+  width:30%;
+  height:1%;
+  bottom: 0;
+  left: 60%;
+  position: fixed;
+
+}
+
+#prlx_lyr_7{
+  position:fixed;
+  width:15%;
+  height:13%;
+  right: 30%;
+  top:0;
+  z-index: 0;
+}
+
+#prlx_lyr_8{
+  width:50%;
+  height:500px; 
+  top: 0;
+  left: 0;
+  position: fixed;
+  
+}
+#prlx_lyr_8 img{
+    width: 100%;
+}
+#prlx_lyr_9{
+  position:fixed;
+  width:30%;
+  height:15%;
+  right: 0;
+}
+#prlx_lyr_9 img{
+    width: 100%;
+}
+#prlx_lyr_10{
+    position:fixed;
+    width:80%;
+    height:60%;
+    margin-left: -100%;
+    top: 0;
+    left: -100%;
+    display: none;
+}
+
+#logo{ 
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  text-align: center;
+}
+#logo img{
+    position: relative;
+    margin: auto;
+    width: 50%;
+    z-index: 10;
+    margin-top: 5%;
+}
+.homeWords{
+    z-index: 99 ;
+    text-align: center;
+}
+.homeWords p{
+    font-family: Balloons;
+    color: #fff;
+    font-size: 3em;
+    text-shadow: 1px 1px 1px #000;    
+}
+
+/**/
+/*seccion2 servicios*/
+
+
+#servicios_content1{
+    float: left;
+    margin-right: 30%;
+    margin-bottom: 3%;
+    padding: 5px;  
+}
+#servicios_content2{
+    float: right; 
+    margin-bottom: 3%; 
+    padding: 5px;  
+}
+#servicios_content3{
+    float: left;
+    margin-bottom: 3%;
+    padding: 5px;    
+}
+.texto_servicios h2{
+  font-family: Balloons;
+}
+#contacto_content{
+    float: left; 
+    margin-top: 2%;  
+}
+
+/**/
+#contacto{
+}
+
+#mapa{
+width: 60%;
+height: 500px;
+background:url(../images/mapa-balloons.jpg);
+background-size: auto;
+}
+#formulario{
+font-family: Balloons; 
+padding-left: 20px;
+padding-right: 20px;
+}
+#dialog{
+  font-family: Balloons;
+  background-color: #c8d128;
+  background-size: 100% 100%;
+}
+#tabla1 {
+   font-family: Balloons;
+  width: 45%;
+  height: auto;
+  float: left;
+  margin-right: 10px;
+  }
+  #tabla2{
+     width: 45%;
+     height: auto;
+     float: left;
+     padding: 10px;
+  }
+  #cuadro{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+  }
+.titulo{
+    text-align: center;
+    font-family: Balloons;
+    color: #fff;
+    font-size: 36px;
+    text-shadow: 1px 1px 1px #000;   
+}
+.blanco{
+  color:#000;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+.content1{
+    color:red;
+    background: rgba(255, 255, 255, 0.6);
+    height: auto;
+    width: 60%;
+    margin: auto;
+    position:relative; 
+    z-index: 20;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    padding-left: 50px;
+    padding-right: 50px;  
+    border-radius: 100px;
+    box-shadow: 0 5px 20px #000;
+    text-align: center;
+}
+.content1 h3{
+   font-family: Balloons;
+}
+.content{
+    color:#000;
+    background: rgba(255, 255, 255, 0.6);
+    height: auto;
+    width: 60%;
+    margin: auto;
+    position:relative; 
+    z-index: 20;
+    padding-bottom: 10px;  
+    border-radius: 100px;
+    box-shadow: 0 5px 20px #000;
+}
+.content1 p{
+  background-color: none;
+    font-family: Balloons;
+    text-align: justify;
+    font-size: 1.0rem;
+}
+.content p{
+  background-color: none;
+    font-family: Balloons;
+    text-align: justify;
+    font-size: 1.0rem;
+}
+.content3{
+    color:#000;
+    background: rgba(255, 255, 255, 0.6);
+    height: auto;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    position:relative; 
+    z-index: 20;
+    padding-bottom: 10px;  
+    border-radius: 10px;
+    box-shadow: 0 5px 20px #000;
+}
+.content3 h2{
+  font-family: Balloons;
+  text-align: center;
+}

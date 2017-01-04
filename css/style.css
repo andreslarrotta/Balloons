@@ -1,0 +1,353 @@
+/* By GACB (Phone Numbrer 571+ 3005790114) */
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+font-family: Balloons;
+src: url('../fonts/Hand_Of_Sean_Demo.ttf');
+}
+@font-face {
+font-family: Balloons2;
+src: url('../fonts/BebasNeue.otf');
+}
+body,html{ margin:0px; 
+    background:#FDFEC2 url('../imagenes/bg.jpg') no-repeat;
+    background-position: top;
+    }
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 101;
+    text-align: center;
+}
+#loading img{
+    width: 100px;
+    margin-top: 10%;
+}
+.loading{
+    font-family: Balloons;
+}
+h1{
+    width: 100%;
+    font-family: Balloons2;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 0;
+}
+h3{
+ font-family: Balloons;
+ text-align: justify;    
+}
+nav{
+    position: fixed;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    z-index: 100;
+    bottom:0;
+    background-image: url('../imagenes/menu.gif') ;
+    background-size: 25%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 150px;
+    padding-left: 25px;
+}
+nav ul{
+    list-style-type: none;
+    width: 400px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+    margin-top: 119px;
+}
+nav ul li{
+    display: inline;
+    text-align: center;
+    margin: 10px;
+}
+nav ul li a{
+    color: #fff;
+    font-family: Balloons;
+    text-decoration: none;
+    text-shadow: 1px 1px #000;
+    font-size: 14px;
+}
+nav ul li a:hover{
+    color: #D4D4D4;
+    font-family: Balloons;
+    text-decoration: none;
+    text-shadow: 1px 1px #000;
+}
+#prlx_lyr_1{
+    position: fixed;
+	width:40%;
+	height:100%;
+    z-index: 9;
+    margin-top: 160%;
+}
+#prlx_lyr_1 img{
+	position:relative;
+	width:100%;
+	height:100%;
+    z-index: 9;
+}
+#prlx_lyr_1_2{
+    position: fixed;
+	width:35%;
+	height:100%;
+    z-index: 9;
+    right: 0;
+    margin-top: 145%;
+}
+#prlx_lyr_1_2 img{
+	position:relative;
+	width:100%;
+    z-index: 9;
+    float: right;
+}
+#prlx_lyr_2{
+	position:fixed;
+	width:40%;
+    z-index:8;
+    margin-top: 50%;
+}
+#prlx_lyr_2 img{
+	position:relative;
+	width:100%;
+	height:100%;
+    z-index: 9;
+}
+#prlx_lyr_2_2{
+	position:fixed;
+    width:30%;
+	height:100%;
+    z-index: 8;
+    right: 0;
+    margin-top: 63%;
+}
+#prlx_lyr_2_2 img{
+	position:relative;
+	width:100%;
+	height:100%;
+    z-index: 8;
+}
+#prlx_lyr_3{
+	position:fixed;
+	width:50%;
+	height:100%;
+    z-index:7;
+    margin-top: 5%;
+}
+#prlx_lyr_3 img{
+    width:100%;    
+}
+#prlx_lyr_4{
+    position:fixed;
+	width:100%;
+	height:100%;
+    z-index: 0;
+    margin-top: 50%;    
+}
+#prlx_lyr_4 img{
+	position:relative;
+	width:100%;
+    height: 100%;
+    z-index: 0; 
+}
+#prlx_lyr_5{
+    position:fixed;
+	width:100%;
+	height:100%;
+    z-index: 1;
+    margin-top: 51%;    
+}
+#prlx_lyr_5 img{
+	position:relative;
+	width:100%;
+    height: 100%;
+    z-index: 1;
+}
+#prlx_lyr_6{
+    position:fixed;
+	width:100%;
+	height:100%;
+    z-index: 2;
+    margin-top: 60%;    
+}
+#prlx_lyr_6 img{
+	position:relative;
+	width:100%;
+    height: 100%;
+    z-index: 2;
+}
+#prlx_lyr_7{
+    position:fixed;
+	width:40%;
+	height:100%;
+    z-index: 8;
+    margin-top: 60%; 
+    display: none;  
+}
+#prlx_lyr_7 img{
+	position:relative;
+	width:100%;
+    z-index: 8;
+}
+#prlx_lyr_8{
+    position:fixed;
+	width:50%;
+	height:30%;
+    z-index: 9;
+}
+#prlx_lyr_8 img{
+    width: 100%;
+}
+#prlx_lyr_9{
+    position:fixed;
+	width:30%;
+	height:15%;
+    z-index: 10;
+    right: 0;
+}
+#prlx_lyr_9 img{
+    width: 100%;
+}
+#prlx_lyr_10{
+    background-color: red;
+    position:fixed;
+	width:80%;
+	height:60%;
+    z-index: 19;
+    margin-left: -100%;
+    top: 40%;
+    display: none;
+}
+#prlx_lyr_10 img{
+    float: left;
+    display: none;
+}
+#logo{ width: 100%; height: 100%; text-align: center; z-index: 100;}
+#logo img{
+    position: relative;
+    margin: auto;
+    width: 50%;
+    z-index: 9;
+    margin-top: 12%;
+}
+#home{ height: 100%; padding: 20px;}
+#home_content{
+    width:80%;
+}
+#home_content p{
+    font-size: 16px;
+}
+#seccion1{ height: 100%; padding: 5%; }
+
+#servicios{ height: 100%; padding: 10px; }
+#servicios .titulo{
+    text-align: center;
+    font-family: Balloons;
+    color: #fff;
+    font-size: 36px;
+    text-shadow: 1px 1px 1px #000;   
+}
+#contacto{ height: 100%}
+#servicios img{
+    width: 80%;
+    margin-top: 10px;    
+}
+#servicios_content1{
+    float: left;
+    margin-bottom: 3%;
+    padding: 5px;    
+}
+#servicios_content2{
+    float: right; 
+    margin-bottom: 3%; 
+    padding: 5px;  
+}
+#servicios_content3{
+    float: left;
+    margin-bottom: 3%;
+    padding: 5px;    
+}
+#contacto_content{
+    float: left; 
+    margin-top: 2%;  
+}
+.content{
+    color:#000;
+    background: rgba(255, 255, 255, 0.6);
+    height: auto;
+    width: 60%;
+    margin: auto;
+    position:relative; 
+    z-index: 20;
+    padding-bottom: 10px;  
+    border-radius: 5px;
+    box-shadow: 0 5px 20px #000;
+}
+.content p{
+    font-family: Balloons;
+    text-align: justify;
+    font-size: 1.0rem;
+}
+.texto{
+    margin: 20px;
+    padding-top: 10px;
+}
+#contacto_content img{
+    width: 70%;
+}
+#tabla1{
+ padding-right: 20px;    
+}
+h1{
+    width: 100%;
+    font-family: Balloons2;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 0;
+}
+#comollegar{
+    display: none;
+    position: fixed;
+    text-align: center;
+    border-radius:5px;      
+}
+#comollegar img{
+    border-radius: 5px;
+    border: 8px solid #000;
+    box-shadow: 0 2px 20px #fff; 
+}
+.cerrarBoton{
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;    
+}
+.comollegar:hover{
+    color: #5A79F3;
+    text-shadow: -2px 2px 2px #000;
+}
+.firstImage{
+    z-index: 0;
+    display: none;
+}
+.homeWords{
+    z-index: 200;
+    text-align: center;
+}
+.homeWords p{
+    font-family: Balloons;
+    color: #fff;
+    font-size: 32px;
+    text-shadow: 1px 1px 1px #000;    
+}
+@media (max-width: 920px) {
+    #contacto_content{
+        width:40%; 
+    }  
+}
